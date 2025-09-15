@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registro al Evento</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <h1>Registro al Evento</h1>
+
+    <form id="form">
+      <label for="nombre">Nombre:</label><br />
+      <input type="text" id="nombre" name="nombre" required /><br /><br />
+      <p id="errorNombre"></p>
+
+      <label for="edad">Edad:</label><br />
+      <input type="number" id="edad" name="edad" min="0" required /><br /><br />
+      <p id="errorEdad"></p>
+
+      <button type="submit">Enviar</button>
+    </form>
+
+    <div id="resultado"></div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
