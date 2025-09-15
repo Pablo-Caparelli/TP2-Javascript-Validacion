@@ -63,5 +63,8 @@ function validarEdad() {
     return false;
   }
 
+  errorEdad.textContent = "✔ Edad válida";
+  errorEdad.classList.add("mensaje-ok");
+  errorEdad.classList.remove("mensaje-error");
   return true;
 }
