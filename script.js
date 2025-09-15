@@ -28,12 +28,12 @@ function validarNombre() {
   const soloLetras = /^[A-Za-zÁÉÍÓÚáéíóúÑñ\s]+$/;
 
   if (valueNombre.length < 3 || valueNombre.length > 15) {
-    errorNombre.textContent = "El nombre debe tener entre 3 y 15 caracteres.";
+    errorNombre.textContent = "El nombre debe tener entre 3 y 15 caracteres.😞";
     errorNombre.classList.add("mensaje-error");
     errorNombre.classList.remove("mensaje-ok");
     return false;
   } else if (!soloLetras.test(valueNombre)) {
-    errorNombre.textContent = "El nombre solo puede contener letras.";
+    errorNombre.textContent = "El nombre solo puede contener letras.🥺";
     errorNombre.classList.add("mensaje-error");
     errorNombre.classList.remove("mensaje-ok");
     return false;
@@ -49,7 +49,7 @@ function validarEdad() {
   const valueEdad = parseInt(edad.value, 10);
 
   if (valueEdad < 1 || valueEdad > 120) {
-    errorEdad.textContent = "La edad debe estar entre 1 y 120.";
+    errorEdad.textContent = "La edad debe estar entre 1 y 120.🙏";
     errorEdad.classList.add("mensaje-error");
     errorEdad.classList.remove("mensaje-ok");
     return false;
