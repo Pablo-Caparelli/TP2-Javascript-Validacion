@@ -16,15 +16,17 @@ En caso de error se muestran mensajes en **rojo**, y si todo es correcto se mues
 
 ## 🖼️ Capturas de pantalla
 
-![Bienvenido, tienes acceso al evento](./public/Mensaje_bienvenida-ok.jpeg)
+![Bienvenido, tienes acceso al evento](./public/BienvenidoAlEvento.jpeg)
 
 ![Lo sentimos, no puede ingresar](./public/MenorDeEdad.jpeg)
 
-![Nombre muy largo](./public/Nombre-cantidadDeCaracteres.jpeg)
+![Error nombre y edad, solo letras](./public/ErrorNombreyEdad.jpeg)
+
+![Nombre muy largo](./public/NombreMuyLargo.jpeg)
 
 ![Nombre solo letras](./public/Nombre-soloLetras.jpeg)
 
-![Edad no Válida](./public/Edad-noValida.jpeg)
+![Edad no Válida, Nombre corto](./public/ErrorNombre-Edad.jpeg.jpeg)
 
 ## ⚙️ Instrucciones de instalación y ejecución
 
