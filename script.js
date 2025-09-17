@@ -17,7 +17,9 @@ form.addEventListener("submit", (event) => {
   const validoEdad = validarEdad();
 
   if (validoNombre && validoEdad) {
-    resultado.innerHTML = `<p style="color: green;">✅ Bienvenido ${nombre.value}, tienes acceso al evento🆗👍</p>`;
+    resultado.innerHTML = `✅ Bienvenido ${nombre.value}, tienes acceso al evento🆗👍</p>`;
+    resultado.classList.add("mensaje-ok");
+    resultado.classList.remove("mensaje-error");
     errorNombre.textContent = "";
     errorEdad.textContent = "";
   }
@@ -56,8 +58,7 @@ function validarEdad() {
     errorEdad.classList.remove("mensaje-ok");
     return false;
   } else if (valueEdad < 18) {
-    errorEdad.textContent =
-      "Lo sentimos😞, debes ser mayor de edad para ingresar.👎";
+    errorEdad.textContent = `Lo sentimos😞 ${nombre.value}, debes ser mayor de edad para ingresar.👎`;
     errorEdad.classList.add("mensaje-error");
     errorEdad.classList.remove("mensaje-ok");
     return false;
