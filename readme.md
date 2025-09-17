@@ -24,9 +24,9 @@ En caso de error se muestran mensajes en **rojo**, y si todo es correcto se mues
 
 ![Nombre muy largo](./public/NombreMuyLargo.jpeg)
 
-![Nombre solo letras](./public/Nombre-soloLetras.jpeg)
+![Edad No Válida](./public/NombreValido-EdadNoValida.jpeg)
 
-![Edad no Válida, Nombre corto](./public/ErrorNombre-Edad.jpeg.jpeg)
+![Edad no Válida, Nombre corto](./public/ErrorNombre-Edad.jpeg)
 
 ## ⚙️ Instrucciones de instalación y ejecución
 
